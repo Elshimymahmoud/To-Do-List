@@ -1,0 +1,110 @@
+* body{
+    background-color: darkslateblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: xx-large;
+    width: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    letter-spacing: 5px;
+    position: sticky;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardone{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    background: rgba( 215, 75, 75, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-bottom: 3px solid white;
+    height: 4vw;
+}
+.classtwo{
+    background: rgba( 215, 75, 75, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-bottom: 3px solid white;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-top: 9px;
+    height: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+p{
+    font-size: x-large;
+    color: rgb(252, 252, 252);
+
+}
+.icon-sad2:hover{
+
+    color:  rgb(217, 13, 13);
+    transition: 0.3s ;
+}
+.icon{
+    font-size: 22px
+    ;
+    cursor: pointer;
+}
+.icon:hover{
+    font-size: 30px;
+    transition: 0.5s;
+}
+   .cardone p{
+    font-size: x-large;
+
+}
+.icon-star{
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 25px;
+}
+.icon-star:hover{
+    color: rgb(255, 242, 0);
+opacity: 1;
+transition: 0.2s;
+}
+.icon-upload:hover{
+font-size: 15px;
+cursor: pointer;
+color: brown;
+transition: 0.5s;
+}
+
+
+.icon-heart {
+    color: crimson;
+}
+.icon-heart:hover{
+    size: 52px;
+    transition: 0.3s;
+}
+
+.crash{
+    visibility: hidden;
+}
